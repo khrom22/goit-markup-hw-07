@@ -248,7 +248,7 @@ left: 0;
   }
   */
 /*team*/
-.team {
+/* .team {
   background-color: var(--secondary-bg-cl);
 }
 .team__title {
@@ -321,7 +321,7 @@ left: 0;
 .socials__icon{
   fill: #AFB1B8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
+} */ */
 
 /*clients*/
 /* .client__title {
@@ -369,7 +369,7 @@ left: 0;
   border-color: #2196F3;
 }
 /* footer*/
-.footer {
+/* .footer {
   background-color: var(--dark-bg-cl);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -398,7 +398,7 @@ left: 0;
   text-decoration: underline;
   text-decoration-color: var(--cl-active); */
 
-.address__city {
+/* .address__city {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -426,7 +426,7 @@ left: 0;
 
 .address__contacts:hover,
 .address__contacts:focus {
-  color: var(--cl-active);
+  /* color: var(--cl-active);
 }
 .footer__socials{
   margin-left: 70px;
@@ -466,14 +466,14 @@ align-items: center;
 .footer-socials__link:hover,
 .footer-socials__link:focus {
   background-color: #2196F3;
-}
+}  */
 
 /* .footer-position{
   display: flex;
   gap: 70px;
   align-items: flex-start;
 } */
-.footer-form__container{
+/* .footer-form__container{
   margin-left: 93px;
 }
 .footer-form{
@@ -547,7 +547,7 @@ background-color:#188CE8;
 }
 
 /*Portfolio*/
-.portfolio {
+/* .portfolio {
   background-color: var(--light-bg-cl);
 }
 .filter-list {
@@ -651,14 +651,11 @@ border-right: 1px solid #EEEEEE;
     line-height: 1.56;
     letter-spacing: 0.03em;
   
-    color: #FFFFFF;
-}
-
-
-
+    color: #FFFFFF; */
+} 
 
 /*social icons*/
-.socials  {
+/* .socials  {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -670,11 +667,11 @@ border-right: 1px solid #EEEEEE;
   margin-right: auto;
 
   margin-top: 16px;
-  }
+  } */
 
 
 /* modal window */
-.backdrop{
+/* .backdrop{
   position: fixed;
   top: 0;
   left: 0;
@@ -726,8 +723,8 @@ text-align: center;
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-}
-.form-title{
+} */
+/* .form-title{
   display: block;
   font-family: 'Roboto';
     font-style: normal;
@@ -881,7 +878,7 @@ transition: transition background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-
 .register-form-btn:focus{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background-color: #188CE8;
-}
+} */
 
 
 
