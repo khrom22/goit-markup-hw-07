@@ -23,11 +23,11 @@
     display: block;
     position: relative;
     margin-bottom: 10px;
-}
 
-.register-form-wrap:last-child {
+
+&:last-child {
     margin-bottom: 0;
-}
+}}
 
 .register-form-title {
     display: block;
