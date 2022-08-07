@@ -126,22 +126,25 @@
 
 .register-form-agreement-icon {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
+    .register-checkbox:checked+& .register-form-agreement-icon-check {
+    opacity: 1;
+    fill: #ffffff;}
+
+.register-checkbox:checked+.& {
+    fill: #2196f3;
+    background-color: #2196f3;
+
+}}
 
 .register-form-agreement-icon-check {
     opacity: 0;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.register-checkbox:checked+.register-form-agreement-icon .register-form-agreement-icon-check {
-    opacity: 1;
-    fill: #ffffff;
-}
 
-.register-checkbox:checked+.register-form-agreement-icon {
-    fill: #2196f3;
-    background-color: #2196f3;
-}
+
+
 
 .register-form-btn {
     display: inline-flex;
